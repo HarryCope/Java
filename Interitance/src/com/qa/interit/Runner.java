@@ -21,8 +21,6 @@ public class Runner {
 		garage.addVehicle(e);
 		garage.addVehicle(d);
 
-		garage.removeVehicle(g);
-
 		garage.billGarage(garage.garage);
 
 		Vehicle found = garage.findById(102);

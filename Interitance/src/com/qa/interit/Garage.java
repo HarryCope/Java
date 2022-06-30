@@ -10,10 +10,6 @@ public class Garage {
 		this.garage.add(v);
 	}
 
-	public void removeVehicle(Vehicle v) {
-		this.garage.remove(v);
-	}
-
 	public void billGarage(ArrayList<Vehicle> i) {
 
 		int bill;
